@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoRishi.LMS.Framework", "src\TechnoRishi.LMS.Framework\TechnoRishi.LMS.Framework.csproj", "{E4BD014C-4832-4499-94C9-50D2EDC0ACBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoRishi.LMS.ViewModel", "src\TechnoRishi.LMS.ViewModel\TechnoRishi.LMS.ViewModel.csproj", "{EB0E3D35-2CC5-442C-B667-0422BB963489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoRishi.LMS.Services", "src\TechnoRishi.LMS.Serives\TechnoRishi.LMS.Services.csproj", "{46EDD777-0DCA-4A4D-8AD5-23AC300CE7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoRishi.LMS.Repository", "src\TechnoRishi.LMS.Repository\TechnoRishi.LMS.Repository.csproj", "{7A55B063-58F8-4C42-A071-46315C907D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoRishi.LMS.API", "src\TechnoRishi.LMS.API\TechnoRishi.LMS.API.csproj", "{00AB8900-B524-4B4D-8F3D-C8F344A43704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4BD014C-4832-4499-94C9-50D2EDC0ACBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BD014C-4832-4499-94C9-50D2EDC0ACBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BD014C-4832-4499-94C9-50D2EDC0ACBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BD014C-4832-4499-94C9-50D2EDC0ACBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0E3D35-2CC5-442C-B667-0422BB963489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0E3D35-2CC5-442C-B667-0422BB963489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0E3D35-2CC5-442C-B667-0422BB963489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0E3D35-2CC5-442C-B667-0422BB963489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EDD777-0DCA-4A4D-8AD5-23AC300CE7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EDD777-0DCA-4A4D-8AD5-23AC300CE7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EDD777-0DCA-4A4D-8AD5-23AC300CE7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EDD777-0DCA-4A4D-8AD5-23AC300CE7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A55B063-58F8-4C42-A071-46315C907D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A55B063-58F8-4C42-A071-46315C907D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A55B063-58F8-4C42-A071-46315C907D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A55B063-58F8-4C42-A071-46315C907D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AB8900-B524-4B4D-8F3D-C8F344A43704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AB8900-B524-4B4D-8F3D-C8F344A43704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AB8900-B524-4B4D-8F3D-C8F344A43704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AB8900-B524-4B4D-8F3D-C8F344A43704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C45E0E4-4542-4103-9371-9AB8C320DB9F}
+	EndGlobalSection
+EndGlobal

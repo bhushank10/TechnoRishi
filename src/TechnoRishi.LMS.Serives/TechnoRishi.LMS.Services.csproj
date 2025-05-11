@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.59" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechnoRishi.LMS.Repository\TechnoRishi.LMS.Repository.csproj" />
+    <ProjectReference Include="..\TechnoRishi.LMS.ViewModel\TechnoRishi.LMS.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
