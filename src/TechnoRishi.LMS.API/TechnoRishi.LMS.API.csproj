@@ -24,7 +24,6 @@
   <ItemGroup>
     <ProjectReference Include="..\TechnoRishi.LMS.Framework\TechnoRishi.LMS.Framework.csproj" />
     <ProjectReference Include="..\TechnoRishi.LMS.Repository\TechnoRishi.LMS.Repository.csproj" />
-    <ProjectReference Include="..\TechnoRishi.LMS.Serives\TechnoRishi.LMS.Serives.csproj" />
     <ProjectReference Include="..\TechnoRishi.LMS.Serives\TechnoRishi.LMS.Services.csproj" />
     <ProjectReference Include="..\TechnoRishi.LMS.ViewModel\TechnoRishi.LMS.ViewModel.csproj" />
   </ItemGroup>
