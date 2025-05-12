@@ -71,6 +71,9 @@ public class BorrowedBookService : IBorrowedBookService
         {
             book.AvailabilityStatus = "Borrowed";
             await bookRepository.Update(book.BookId, book, cancellationToken);
+                        borrowedBookRequest.Book = null;
+            borrowedBookRequest.Member = null;
+
             await borrowedBookRepository.Add(BorrowedBookMapper.ToEntity(borrowedBookRequest), cancellationToken);
             return true;
         }
